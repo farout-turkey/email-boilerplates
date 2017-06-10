@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title></head>
+<body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+<style>@media only screen {
+    html {
+        min-height: 100%;
+        background: #f3f3f3
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    .small-float-center {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important
+    }
+
+    .small-text-center {
+        text-align: center !important
+    }
+
+    .small-text-left {
+        text-align: left !important
+    }
+
+    .small-text-right {
+        text-align: right !important
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    .hide-for-large {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        max-height: none !important;
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    table.body table.container .hide-for-large, table.body table.container .row.hide-for-large {
+        display: table !important;
+        width: 100% !important
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    table.body table.container .callout-inner.hide-for-large {
+        display: table-cell !important;
+        width: 100% !important
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    table.body table.container .show-for-large {
+        display: none !important;
+        width: 0;
+        mso-hide: all;
+        overflow: hidden
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    table.body img {
+        width: auto;
+        height: auto
+    }
+
+    table.body center {
+        min-width: 0 !important
+    }
+
+    table.body .container {
+        width: 95% !important
+    }
+
+    table.body .column, table.body .columns {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 16px !important;
+        padding-right: 16px !important
+    }
+
+    table.body .column .column, table.body .column .columns, table.body .columns .column, table.body .columns .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    table.body .collapse .column, table.body .collapse .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    td.small-1, th.small-1 {
+        display: inline-block !important;
+        width: 8.33333% !important
+    }
+
+    td.small-2, th.small-2 {
+        display: inline-block !important;
+        width: 16.66667% !important
+    }
+
+    td.small-3, th.small-3 {
+        display: inline-block !important;
+        width: 25% !important
+    }
+
+    td.small-4, th.small-4 {
+        display: inline-block !important;
+        width: 33.33333% !important
+    }
+
+    td.small-5, th.small-5 {
+        display: inline-block !important;
+        width: 41.66667% !important
+    }
+
+    td.small-6, th.small-6 {
+        display: inline-block !important;
+        width: 50% !important
+    }
+
+    td.small-7, th.small-7 {
+        display: inline-block !important;
+        width: 58.33333% !important
+    }
+
+    td.small-8, th.small-8 {
+        display: inline-block !important;
+        width: 66.66667% !important
+    }
+
+    td.small-9, th.small-9 {
+        display: inline-block !important;
+        width: 75% !important
+    }
+
+    td.small-10, th.small-10 {
+        display: inline-block !important;
+        width: 83.33333% !important
+    }
+
+    td.small-11, th.small-11 {
+        display: inline-block !important;
+        width: 91.66667% !important
+    }
+
+    td.small-12, th.small-12 {
+        display: inline-block !important;
+        width: 100% !important
+    }
+
+    .column td.small-12, .column th.small-12, .columns td.small-12, .columns th.small-12 {
+        display: block !important;
+        width: 100% !important
+    }
+
+    table.body td.small-offset-1, table.body th.small-offset-1 {
+        margin-left: 8.33333% !important;
+        Margin-left: 8.33333% !important
+    }
+
+    table.body td.small-offset-2, table.body th.small-offset-2 {
+        margin-left: 16.66667% !important;
+        Margin-left: 16.66667% !important
+    }
+
+    table.body td.small-offset-3, table.body th.small-offset-3 {
+        margin-left: 25% !important;
+        Margin-left: 25% !important
+    }
+
+    table.body td.small-offset-4, table.body th.small-offset-4 {
+        margin-left: 33.33333% !important;
+        Margin-left: 33.33333% !important
+    }
+
+    table.body td.small-offset-5, table.body th.small-offset-5 {
+        margin-left: 41.66667% !important;
+        Margin-left: 41.66667% !important
+    }
+
+    table.body td.small-offset-6, table.body th.small-offset-6 {
+        margin-left: 50% !important;
+        Margin-left: 50% !important
+    }
+
+    table.body td.small-offset-7, table.body th.small-offset-7 {
+        margin-left: 58.33333% !important;
+        Margin-left: 58.33333% !important
+    }
+
+    table.body td.small-offset-8, table.body th.small-offset-8 {
+        margin-left: 66.66667% !important;
+        Margin-left: 66.66667% !important
+    }
+
+    table.body td.small-offset-9, table.body th.small-offset-9 {
+        margin-left: 75% !important;
+        Margin-left: 75% !important
+    }
+
+    table.body td.small-offset-10, table.body th.small-offset-10 {
+        margin-left: 83.33333% !important;
+        Margin-left: 83.33333% !important
+    }
+
+    table.body td.small-offset-11, table.body th.small-offset-11 {
+        margin-left: 91.66667% !important;
+        Margin-left: 91.66667% !important
+    }
+
+    table.body table.columns td.expander, table.body table.columns th.expander {
+        display: none !important
+    }
+
+    table.body .right-text-pad, table.body .text-pad-right {
+        padding-left: 10px !important
+    }
+
+    table.body .left-text-pad, table.body .text-pad-left {
+        padding-right: 10px !important
+    }
+
+    table.menu {
+        width: 100% !important
+    }
+
+    table.menu td, table.menu th {
+        width: auto !important;
+        display: inline-block !important
+    }
+
+    table.menu.small-vertical td, table.menu.small-vertical th, table.menu.vertical td, table.menu.vertical th {
+        display: block !important
+    }
+
+    table.menu[align=center] {
+        width: auto !important
+    }
+
+    table.button.small-expand, table.button.small-expanded {
+        width: 100% !important
+    }
+
+    table.button.small-expand table, table.button.small-expanded table {
+        width: 100%
+    }
+
+    table.button.small-expand table a, table.button.small-expanded table a {
+        text-align: center !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    table.button.small-expand center, table.button.small-expanded center {
+        min-width: 0
+    }
+}</style>
+<table class="body" data-made-with-foundation=""
+       style="Margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+    <tbody>
+    <tr style="padding:0;text-align:left;vertical-align:top">
+        <td class="float-center" align="center" valign="top"
+            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding:0;text-align:center;vertical-align:top;word-wrap:break-word">
+            <center style="min-width:580px;width:100%">
+                <table class="spacer"
+                       style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td height="20px"
+                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" class="container header-container"
+                       style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:580px">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                            <table class="spacer"
+                                   style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <td height="15px"
+                                        style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="row header-top"
+                                   style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-12 large-12 columns first last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:532px;width:100%"><img align="center"
+                                                                                                    class="float-center"
+                                                                                                    src="https://mailbox.alaturkatravel.info/mail-assets/logo.png"
+                                                                                                    style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="row header-top"
+                                   style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-4 large-4 columns first"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:177.33px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:145.33px;width:100%"><a
+                                                            href="https://alaturkaturkey.com/" title="Alaturka Turkey"
+                                                            style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            class="float-center"
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/turkey.png"
+                                                            style="-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                    </a>
+                                                        <small style="color:#000;font-size:80%">Turkey Package Tours
+                                                        </small>
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-4 large-4 columns"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:8px;text-align:left;width:177.33px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:145.33px;width:100%"><a
+                                                            href="https://alaturkacruises.com/" title="Alaturka Cruises"
+                                                            style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/cruises.png"
+                                                            class="float-center"
+                                                            style="-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                    </a>
+                                                        <small style="color:#000;font-size:80%">Cruises / Sail
+                                                            Holidays
+                                                        </small>
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-4 large-4 columns last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:177.33px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:145.33px;width:100%"><a
+                                                            href="https://alaturkayachting.com/"
+                                                            title="Alaturka Yachting"
+                                                            style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/yachting.png"
+                                                            class="float-center"
+                                                            style="-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                    </a>
+                                                        <small style="color:#000;font-size:80%">Private Yacht Charters
+                                                        </small>
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" class="container introduce-container"
+                       style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:580px">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                            <hr style="background: #cacaca;border:0;height:2px;margin:0">
+                            <table class="spacer header-bottom"
+                                   style="background:#b0262a;border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <td height="15px"
+                                        style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="row header-bottom"
+                                   style="background:#b0262a;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-12 large-12 columns first last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:532px;width:100%"><h1 class="text-center"
+                                                                                                   style="Margin:0;Margin-bottom:10px;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:34px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:center;word-wrap:normal">
+                                                        Introducing Bec G.</h1>
+                                                        <small style="color:#fff;font-size:80%">Your Australian based
+                                                            Turkey Travel Specialist
+                                                        </small>
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <hr style="background: #cacaca;border:0;height:2px;margin:0">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" class="container section-container"
+                       style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:580px">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                            <table class="spacer"
+                                   style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <td height="15px"
+                                        style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <hr class="hr-style"
+                                style="background: #8c8b8b;border:0;height:2px">
+                            <table class="row section"
+                                   style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-12 large-12 columns first last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:532px;width:100%"><h3 class="text-left"
+                                                                                                   style="Margin:0;Margin-bottom:10px;border-left:5px solid #b0262a;color:#b0262a;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:700;line-height:1.3;margin:0;margin-bottom:10px;padding:0;padding-left:5px;text-align:left;word-wrap:normal">
+                                                        EXPERIENCE LIKE NO OTHER</h3>
+                                                        <p class="text-left"
+                                                           style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                                            At Alaturka we pride ourselves on knowing the best things to
+                                                            do in Turkey and the best way to do it. With inside local
+                                                            knowledge and the experienced traveller that has explored
+                                                            most corners of the country, we know what advice to give and
+                                                            how to make each of our guests fall in love with Turkey. Our
+                                                            tours are unique in that our guests are still the
+                                                            independent traveller, doing the local buses, eating at the
+                                                            local cafes, we just take the hassle and thinking out of the
+                                                            holiday and help our guests pre-plan and pre-book their
+                                                            holiday, so they can sit back, relax and see Turkey for all
+                                                            that is has to offer. Private group tours are also
+                                                            available.</p></center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="row section"
+                                   style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-12 large-6 columns first"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:274px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:242px;width:100%"><img class="float-center"
+                                                                                                    src="https://www.alaturkaturkey.com/photo/xt2/d/main/f/0613c5f374ae6081000bf3149323098d_xO.jpg"
+                                                                                                    style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-height:200px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:100%">
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-12 large-6 columns last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:274px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <center style="min-width:242px;width:100%"><img class="float-center"
+                                                                                                    src="https://www.alaturkaturkey.com/photo/xt2/d/main/f/bf9c3c408ab82f130ebcaf0e59cd8863_xO.jpg"
+                                                                                                    style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-height:200px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:100%">
+                                                    </center>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <hr class="hr-style"
+                                style="background: #8c8b8b;border:0;height:2px">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" class="container section-container"
+                       style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:580px">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                            <table class="spacer"
+                                   style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <td height="15px"
+                                        style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="row section footer"
+                                   style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th class="small-6 large-3 columns first"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:129px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <h4 class="offices"
+                                                        style="Margin:0;Margin-bottom:10px;background:transparent url(https://mailbox.alaturkatravel.info/mail-assets/marker.png) no-repeat;color:#000;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:5px;padding:0;padding-left:18px;text-align:left;word-wrap:normal">
+                                                        Our Offices</h4>
+                                                    <ul style="margin-top:0;padding-left:5px;padding-top:0">
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.google.com.tr/maps/place/Alaturka+Yatching+%26+Travel+Agency/@36.6222873,29.1016133,17z/data=!3m1!4b1!4m5!3m4!1s0x14c0417cceaa6dcb:0xa1b1060e144901b3!8m2!3d36.622283!4d29.103802"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Fethiye
+                                                                Main Office</a></li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.google.com/maps/place/37.9494457,27.3683732/"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Ephesus</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.google.com/maps/place/38%C2%B038'39.9%22N+34%C2%B049'59.7%22E/@38.644409,34.8310633,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d38.644409!4d34.833252"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Cappadocia</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://maps.googleapis.com/maps/api/staticmap?center=36.3904582,30.466236&zoom=14&scale=2&size=300x300&maptype=roadmap&key=AIzaSyAVwm4oPqRDkjIssrmscRmaXqQubZMAQ4o&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C36.390064,+30.467034"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Olympos</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.google.com.tr/maps/place/Toyca+Tour/@41.0060217,28.9809686,15z/data=!4m5!3m4!1s0x0:0xb21b3176f021c246!8m2!3d41.0060217!4d28.9809686"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">İstanbul</a>
+                                                        </li>
+                                                    </ul>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-6 large-3 columns"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:8px;text-align:left;width:129px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <h4 class="websites"
+                                                        style="Margin:0;Margin-bottom:10px;background:transparent url(https://mailbox.alaturkatravel.info/mail-assets/website.png) no-repeat;color:#000;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:5px;padding:0;padding-left:18px;text-align:left;word-wrap:normal">
+                                                        Our Websites</h4>
+                                                    <ul style="margin-top:0;padding-left:5px;padding-top:0">
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.alaturkaturkey.com"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">alaturkaturkey.com</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.alaturkacruises.com"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">alaturkacruises.com</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.alaturkayachting.com"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">alaturkayachting.com</a>
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <a href="https://www.sailturkey.net"
+                                                               style="Margin:0;color:#000;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">sailturkey.net</a>
+                                                        </li>
+                                                    </ul>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-12 large-6 columns last"
+                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:274px">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                    <h4 class="contact"
+                                                        style="Margin:0;Margin-bottom:10px;background:transparent url(https://mailbox.alaturkatravel.info/mail-assets/info.png) no-repeat;color:#000;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:5px;padding:0;padding-left:18px;text-align:left;word-wrap:normal">
+                                                        Contact Info</h4>
+                                                    <ul style="margin-top:0;padding-left:5px;padding-top:0">
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <strong>Email:</strong> info@alaturkacruises.com
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <strong>Tel:</strong> + 61 439 350 830 (09:00 - 16:30 daily)
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <strong>Tel:</strong> + 90 533 768 34 09 OR + 90 532 773 09 16
+                                                        </li>
+                                                        <li style="color:#000;content:''!important;font-size:12px;list-style:none!important">
+                                                            <strong>Skype:</strong> alaturkaturkey1
+                                                        </li>
+                                                    </ul>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table align="center" class="menu float-center social"
+                                   style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;margin-top:0;padding:0;text-align:center;vertical-align:top;width:auto!important">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top">
+                                            <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="menu-item float-center"
+                                                    style="Margin:0 auto;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center">
+                                                    <a href="https://www.facebook.com/AlaturkaTurkey"
+                                                       style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/facebook.png"
+                                                            alt=""
+                                                            style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                                                </th>
+                                                <th class="menu-item float-center"
+                                                    style="Margin:0 auto;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center">
+                                                    <a href="https://twitter.com/alaturkacruises"
+                                                       style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/twitter.png"
+                                                            alt=""
+                                                            style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                                                </th>
+                                                <th class="menu-item float-center"
+                                                    style="Margin:0 auto;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center">
+                                                    <a href="https://www.youtube.com/user/alaturkaturkey"
+                                                       style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/youtube.png"
+                                                            alt=""
+                                                            style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                                                </th>
+                                                <th class="menu-item float-center"
+                                                    style="Margin:0 auto;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:10px;padding-right:10px;text-align:center">
+                                                    <a href="http://instagram.com/alaturka_turkey/"
+                                                       style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img
+                                                            src="https://mailbox.alaturkatravel.info/mail-assets/instagram.png"
+                                                            alt=""
+                                                            style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="spacer"
+                       style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <td height="15px"
+                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="row section footer"
+                       style="border-collapse:collapse;border-spacing:0;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last"
+                            style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                            <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                        <p class="text-center"
+                                           style="Margin:0;Margin-bottom:10px;color:#818181;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:center">
+                                            <a href="http://alaturka.updatemyprofile.com/r-l-2AD73FFF-l-u"
+                                               style="Margin:0;color:#616161;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Preferences</a>
+                                            - <a href="http://alaturka.cmail20.com/t/r-u-yutkoz-l-o/"
+                                                 style="Margin:0;color:#616161;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Unsubscribe</a>
+                                        </p></th>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </th>
+                    </tr>
+                    </tbody>
+                </table>
+            </center>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
